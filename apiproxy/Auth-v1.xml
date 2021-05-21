@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="Auth-v1">
+    <Basepaths>/auth-proxy</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1621335492868</CreatedAt>
+    <CreatedBy>r.v.lymar@gmail.com</CreatedBy>
+    <Description>commit from a local branch. Deployed by rvlym</Description>
+    <DisplayName>auth-proxy</DisplayName>
+    <LastModifiedAt>1621494623717</LastModifiedAt>
+    <LastModifiedBy>r.v.lymar@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:6c8bd1f39ff8b16b2b16d6340371648c8c56af0ffe972298e120fb9c7e7801d7d96213075b9326c6e137c33f45e477c13c2978835589e0f559213a57371f94b0:eu-west-1</ManifestVersion>
+    <Policies>
+        <Policy>OA-GenerateAccessToken</Policy>
+        <Policy>SA-SpikeArrest</Policy>
+        <Policy>VAK-VerifyAPIKey</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>openapi://association.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints/>
+</APIProxy>
